@@ -11,6 +11,9 @@ int main() {
 	else {
 		cout << "No" << endl;
 	}
+	//cout << ((num % 2 == 0) ? "Yes” : "No") << endl; 
+ 
+ 
 
 	system("Pause");
 	return 0;
