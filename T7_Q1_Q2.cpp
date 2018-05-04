@@ -5,7 +5,7 @@ class Date
 public:
 	Date(int d, int m, int y) {
 		setDate(d, m, y); //Constructor
-						  //refer to void setDate(int d,int m, int y)that's d,m,y
+	//refer to void setDate(int d,int m, int y)that's d,m,y
 	}
 	void setDate(int d, int m, int y)
 	{
@@ -26,12 +26,12 @@ private:
 };
 
 int main() {
-	// Create an object called xmas
-
+	
 	Date xmas(25, 12, 2013); //constructor call
 	cout << "xmas is: ";
 	// Use xmas object to call print()
 	xmas.print();
 	cout << endl;
+	
 	return 0;
 }
