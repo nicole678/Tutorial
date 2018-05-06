@@ -1,0 +1,26 @@
+#include<iostream> 
+ using namespace std; 
+ int main(){ 
+   
+   int n; 
+   
+   cout<<"How many integers to enter? "; 
+   cin>>n;  
+   int num[n];  //delcare the arrayname and size is n
+   int data[n][5]; //datatype arrayname[arrarsize]; 
+   
+   for(int i=0; i<n ; i++){ 
+     cout<<"?"; cin>>num[i];}
+     
+   cout<<"The input integers are:"<<endl; 
+   
+   for(int a=0; a<n ; a++){ 
+     data[a][5]=num[a];
+     cout<< data[a][5]<<" "; 
+     if ( (a+1) % 5 == 0) cout << endl; 
+     
+     } 
+   cout<<endl; 
+   return 0; 
+   
+ }
